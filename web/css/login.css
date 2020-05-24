@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url("../img/background_login.jpg") no-repeat center;
+    background-size:cover;
+}
+h1{
+    font-size: 66px;
+    letter-spacing: 15px;
+}
+form {
+    height: 350px;
+    width: 450px;
+    margin:8% auto;
+    border-radius:10px;
+    border: 1px black solid;
+    padding: 10px;
+    position: relative;
+    background: rgba(255,255,255,.5);
+}
+
+.radio{
+    margin-top: -7%;
+    margin-bottom: 5%;
+    font-size: 16px;
+}
+span{
+    display: inline-block;
+    height:20px;
+    padding: 7px 0px 0px 0px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+#UserName{
+    width: 350px;
+    float: right;
+    margin-right: 40px;
+}
+
+#PassWord{
+    width: 350px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -3%;
+}
+
+#RePassWord{
+    width: 350px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 4%;
+}
+
+#btm_submit{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    font-size: 20px;
+}
+
+#btm_reset{
+    position: absolute;
+    bottom: 40px;
+    left: 185px;
+    right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#btm_register{
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+    font-size: 20px;
+}

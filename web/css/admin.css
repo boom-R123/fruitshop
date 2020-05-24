@@ -1,0 +1,63 @@
+body{
+    overflow: hidden;
+}
+h1{
+    margin-top: 0px;
+    font-size: 46px;
+    background: rgba(246, 229, 141,.4);
+    border-bottom: 2px black solid;
+    padding: 15px 0px;
+}
+#back{
+    font-size: 20px;
+    right: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+.left{
+    margin-top: -10px;
+    height: 640px;
+    width: 50%;
+    border-right: 2px black solid;
+    overflow: auto;
+    background: rgba(186, 220, 88,.6);
+    float: left;
+}
+h2{
+    padding-bottom: 5px;
+}
+table{
+    margin: 10px auto;
+    width: 90%;
+    background: white;
+    font-size: 20px;
+}
+
+.right{
+    margin-top: -10px;
+    height: 640px;
+    width: 50%;
+    overflow: auto;
+    background: rgba(249, 202, 36,.6);
+}
+
+.table-sell tr:nth-child(2n){
+    background: rgba(248, 255, 87, 0.5);
+}
+
+.fruit_form{
+    margin-left: 5%;
+    width: 90%;
+    border: 1px black solid;
+    font-size: 20px;
+    padding: 10px;
+    height: 150px;
+}
+.fruit_form input{
+    width: 33%;
+    margin: 3% 3% 0px 0px;
+}
+
+.table_user td:nth-child(3):hover{
+    cursor: pointer;
+}
