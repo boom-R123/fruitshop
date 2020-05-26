@@ -124,6 +124,12 @@
             所用金额: <input type="text" name="fruit_money">
             <button type="submit" class="btn btn-success" style="font-size: 20px;">确认进货</button>
         </form>
+        <h2 class="text-center">引进水果</h2>
+        <form class="fruit_form" action="Addfruit.jsp" style="height: 80px">
+            水果名字: <input type="text" name="fruit_name" value="" style="width: 23%">
+            水果价格: <input type="text" name="fruit_money" style="width: 23%">
+            <button type="submit" class="btn btn-success" style="font-size: 20px;">确认引进</button>
+        </form>
         <hr style="border: #ff7570 2px solid"/>
 
         <h2 class="text-center">用户详情</h2>

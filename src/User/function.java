@@ -207,6 +207,24 @@ public class function {
         return true;
     }
 
+    public static Boolean AddFruit(String name,Float price) throws SQLException {
+        String sql = "select * from fruitshop.fruit";
+        db.inputSQL(sql);
+        rst = db.pst.executeQuery();
+        int length = 0;
+        while (rst.next()) {
+            length++;
+        }
+        sql = "insert into fruitshop.fruit values(?,?,?,?,?)";
+        db.inputSQL(sql);
+        db.pst.setString(1, Integer.toString(length+1));
+        db.pst.setString(2,name);
+        db.pst.setFloat(3,price);
+        db.pst.setInt(4,0);
+        db.pst.setInt(5,0);
+        db.pst.executeUpdate();
+        return true;
+    }
     public static void AddSpend(String content, String time, float money) throws SQLException {
         String sql = "select * from fruitshop.spend";
         db.inputSQL(sql);
